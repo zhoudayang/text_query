@@ -274,7 +274,6 @@ int main() {
         cout << "Executing Query for: " << q << endl;
         auto result = q.eval(file);
         print_results(result, file);
-
     }
     return 0;
 }
